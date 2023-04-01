@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Techneosis</title>
+    <link>https://www.techneosis.com/</link>
+    <description>Recent content on Techneosis</description>
+    <image>
+      <title>Techneosis</title>
+      <url>https://arkhavencomics.com/wp-content/uploads/2019/02/vox_vp3.png</url>
+      <link>https://arkhavencomics.com/wp-content/uploads/2019/02/vox_vp3.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.techneosis.com/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
