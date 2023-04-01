@@ -10,7 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-4QE696B9LW
 
 minify:
   disableXML: true
@@ -22,7 +22,7 @@ params:
   description: "The home base for all things Techneosis and Brett Parshall"
   keywords: [Software, Portfolio]
   author: "Brett Parshall"
-  images: ["https://arkhavencomics.com/wp-content/uploads/2019/02/vox_vp3.png"]
+  images: [""]
   DateFormat: "January 2, 2006"
   defaultTheme: light #auto, dark, light
   disableThemeToggle: true
@@ -46,11 +46,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    # favicon: "/favicon.ico"
-    # favicon16x16: "/favicon-16x16.png"
-    # favicon32x32: "/favicon-32x32.png"
-    # apple_touch_icon: "/apple-touch-icon.png"
-    # safari_pinned_tab: "/apple-touch-icon.png"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/apple-touch-icon.png"
 
   label:
     text: " " # Prevent title from appearing as text
@@ -71,14 +71,14 @@ params:
     #     url: posts
 
   socialIcons:
-    - name: linkedin
-      url: "https://www.linkedin.com/in/brett-parshall-23009991/"
     - name: github
       url: "https://github.com/techneosis"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/brett-parshall-23009991/"
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-4QE696B9LW"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -110,11 +110,6 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    # - identifier: example
-    #   name: example.org
-    #   url: https://example.org
-    #   weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
