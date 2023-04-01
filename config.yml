@@ -5,6 +5,7 @@ paginate: 5
 theme: PaperMod
 
 
+enableGitInfo: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -24,7 +25,7 @@ params:
   author: "Brett Parshall"
   images: [""]
   DateFormat: "January 2, 2006"
-  defaultTheme: light #auto, dark, light
+  defaultTheme: auto #auto, dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -52,14 +53,11 @@ params:
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/apple-touch-icon.png"
 
-  label:
-    text: " " # Prevent title from appearing as text
-
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Brett Parshall"
-    subtitle: "Software Contractor"
+    subtitle: "CEO, Christian, Software Engineer"
     imageUrl: "images/brett-profile.jpg"
     imageWidth: 200
     imageHeight: 200
@@ -84,7 +82,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/Techneosis/techneosis/content"
+    URL: "https://github.com/Techneosis/techneosis/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
