@@ -25,10 +25,10 @@ params:
   images: [""]
   DateFormat: "January 2, 2006"
   defaultTheme: light #auto, dark, light
-  disableThemeToggle: true
+  disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -54,8 +54,6 @@ params:
 
   label:
     text: " " # Prevent title from appearing as text
-    icon: /images/techneosis.svg
-    iconHeight: 50
 
   # profile-mode
   profileMode:
@@ -66,9 +64,9 @@ params:
     imageWidth: 200
     imageHeight: 200
     imageTitle: "Brett on his wedding day"
-    # buttons:
-    #   - name: Posts
-    #     url: posts
+    buttons:
+      - name: Posts
+        url: posts
 
   socialIcons:
     - name: github
@@ -102,13 +100,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: 2023-reading
+      name: "2023 Reading"
+      url: /posts/2023-reading-list
       weight: 20
 pygmentsUseClasses: true
 markup:
