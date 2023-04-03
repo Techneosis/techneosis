@@ -14,6 +14,7 @@ This list will be updated over the course of the year as I finish reading books.
 ## In Progress
 
 1. *Father Seraphim Rose: His Life and Works* - Hieromonk Damascene
+1. *Refactoring* - Martin Fowler
 1. *One Nation Under Blackmail, Vol. I* - Whitney Webb
 
 ## Up Next
