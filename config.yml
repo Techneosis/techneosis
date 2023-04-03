@@ -62,9 +62,6 @@ params:
     imageWidth: 200
     imageHeight: 200
     imageTitle: "Brett on his wedding day"
-    buttons:
-      - name: Posts
-        url: posts
 
   socialIcons:
     - name: github

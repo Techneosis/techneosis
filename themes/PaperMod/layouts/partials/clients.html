@@ -1,0 +1,17 @@
+<div class="clients">
+    Current Clients:
+    <div style="display:flex; flex-direction:row">
+        {{- $pages := where site.RegularPages "Type" "clients" }}
+        {{ range sort $pages "Title" "asc" }}
+            {{ if not .Params.ended }}
+                <span style="border: 1px solid currentColor; padding: 0 5px; border-radius: 3px; margin: 0 3px;">
+                    {{ if .Params.client_url }}
+                        <a href="{{ .Params.client_url }}">{{ .Title }}</a>
+                    {{ else }}
+                        {{ .Title }}
+                    {{ end }}
+                </span>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
