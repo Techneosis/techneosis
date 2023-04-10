@@ -99,6 +99,10 @@ menu:
       name: "2023 Reading"
       url: /posts/2023-reading-list
       weight: 20
+    - identifier: lulu-plugin
+      name: "Dropshipping Plugin"
+      url: /projects/lulu-dropshipping-plugin
+      weight: 10
 pygmentsUseClasses: true
 markup:
   highlight:
