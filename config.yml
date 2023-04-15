@@ -18,7 +18,7 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: development # to enable google analytics, opengraph, twitter-cards and schema.
   title: Techneosis #Don't know what this does
   description: "The home base for all things Techneosis and Brett Parshall"
   keywords: [Software, Portfolio]
