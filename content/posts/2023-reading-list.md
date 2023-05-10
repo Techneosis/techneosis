@@ -10,12 +10,13 @@ This list will be updated over the course of the year as I finish reading books.
 
 1. *Based on a True Story* - Norm Macdonald
 1. *The Orthodox Way* - Bp. Kalistos Ware
+1. *One Nation Under Blackmail, Vol. I* - Whitney Webb
 
 ## In Progress
 
 1. *Father Seraphim Rose: His Life and Works* - Hieromonk Damascene
 1. *Refactoring* - Martin Fowler
-1. *One Nation Under Blackmail, Vol. I* - Whitney Webb
+1. *Everyday Saints and Other Stories* - Metropolitan Tikhon (Shevkunov)
 
 ## Up Next
 
